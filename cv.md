@@ -5,7 +5,7 @@
 
 ##### **Contact information**
 
-Phone: +90 536 748 50 92
+Phone: +905367485092
 E-mail: anna.perkova.moscow@gmail.com
 Telegram: @anna13anna13
 
