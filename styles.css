@@ -1,0 +1,58 @@
+* {
+    font-family: "Helvetica", sans-serif;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+header {
+    color: #fca311;
+    margin: auto;
+    padding: 0 20px;
+
+}
+
+main, footer {
+    color: #14213d;
+    margin: auto;
+    padding: 0 20px;
+}
+
+hr {
+    color: #e5e5e5;
+}
+
+.bold {
+    color: #000000;
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+img {
+    position: relative;
+    width: 25%;
+    height: auto;
+}
+
+#td1 {
+    text-align: left;
+    width: 25%;
+}
+
+#td2 {
+    text-align: left;
+    width: 40%;
+}
+
+#td3 {
+    text-align: right;
+    width: 17.5%;
+}
+
+#td4 {
+    text-align: right;
+    width: 17.5%;
+}
