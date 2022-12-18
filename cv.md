@@ -5,10 +5,11 @@
 
 ##### **Contact information**
 Phone: +905367485092
-
 E-mail: anna.perkova.moscow@gmail.com
-
-Telegram: @anna13anna13
+Telegram: @numitari
+GitHub: annaperkova
+Discord: fernflower#4134
+Codewars: rsschool_0f15e7c697c1332d
 
 ---
 
@@ -29,8 +30,24 @@ I am learning Frontend Development because it is a craft which requires both cre
 
 ---
 
+##### **Code Example**
+**Codewars**: *Is an integer number prime?*
+```
+function isNumberPrime(num) {
+  if (num < 2) return false
+  else {
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    return true;  
+  }
+}
+```
+
+---
+
 ##### **Education**
-*2022* - UpSkillMe Frontend Development Program
+*2022* - RS School and UpSkillMe Frontend Development Program
 
 *2020* - Graphic Design (online specialization), California Institute of the Arts
 
@@ -53,5 +70,3 @@ I am learning Frontend Development because it is a craft which requires both cre
 English - advanced (TOEFL iBT 115, IELTS General 8.0)
 
 Russian - native
-
-Turkish - elementary
