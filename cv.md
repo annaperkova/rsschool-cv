@@ -5,10 +5,15 @@
 
 ##### **Contact information**
 Phone: +905367485092
+
 E-mail: anna.perkova.moscow@gmail.com
+
 Telegram: @numitari
+
 GitHub: annaperkova
+
 Discord: fernflower#4134
+
 Codewars: rsschool_0f15e7c697c1332d
 
 ---
