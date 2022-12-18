@@ -8,28 +8,48 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
+<body class="wrapper">
 
-<header>
-<h1>Anna Perkova</h1>
-<h2>Junior Frontend Developer</h2>
+<header class="wrapper">
+<div class="flex1">
+<h1>ANNA PERKOVA</h1>
+<h3>JUNIOR FRONTEND DEVELOPER</h3>
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li> 
+    <li><a href="#skills">Skills</a></li> 
+    <li><a href="#education">Education</a></li> 
+    <li><a href="#experience">Experience</a></li> 
+    <li><a href="#languages">Languages</a></li>
+    <li><a href="#code example">Code example</a></li>
+    <li><a href="#projects">Projects</a></li>
+  </ul>
+</nav>
+</div>
+<div class="flex2">
+    <img src="AP copy.jpg" width=230px; height=230px; class="photo" alt="Photo of Anna Perkova">
+</div>
 </header>
 
 <main>
 
 <hr>
 
-<section id="contact">
-<h3>Contact information</h3>
-<p>Phone: +1234567890</p>
-<p>E-mail: cvannaperkova@gmail.com</p>
-<p>Telegram: @cvannaperkova</p>
+<section id="contact" class="wrapper">
+<h2>Contact information</h2>
+<ul id="Contact List">
+<li>Phone: +90 536 748 50 92</li>
+<li>E-mail: anna.perkova.moscow@gmail.com</li>
+<li>Telegram: @numitari</li>
+<li>Discord: fernflower#4134</li>
+<li>Codewars: rsschool_0f15e7c697c1332d</li>
+</ul>
 </section>
 
 <hr>
 
-<section id="about">
-<h3>Briefly About Myself</h3>
+<section id="about" class="wrapper">
+<h2>Briefly About Myself</h2>
 <p>I am learning Frontend Development because it is a craft which requires both creativity and problem-solving and allows
 me to see the product of my work. I have over 4 years' experience in website and content management with well-known
 international organizations. I also have sufficient experience of digital design, Photoshop, InDesign and Illustrator.</p>
@@ -37,8 +57,8 @@ international organizations. I also have sufficient experience of digital design
 
 <hr>
 
-<section id="skills">
-<h3>Skills and Proficiency</h3>
+<section id="skills" class="wrapper">
+<h2>Skills and Proficiency</h2>
 <ul>
 <li>HTML5, CSS3</li>
 <li>Git, GitHub</li>
@@ -52,8 +72,38 @@ international organizations. I also have sufficient experience of digital design
 
 <hr>
 
-<section id="education">
-<h3>Education</h3>
+<section id="code example" class="wrapper">
+<h2>Code Example</h2>
+<pre>
+    <code>
+function isNumberPrime(num) {
+if (num < 2) return false 
+else { 
+    for (let i=2; i <=Math.sqrt(num); i++) { 
+        if (num % i===0) return false; 
+        } 
+    return true;
+    } 
+} 
+    </code>
+</pre>
+</section>
+
+<hr>
+
+<section id="projects" class="wrapper">
+    <h2>Projects</h2>
+<ul>
+    <li><a href="https://annaperkova.github.io/rsschool-cv/cv">CV. Markdown</a></li>
+    <li><a href="https://annaperkova.github.io/rsschool-cv/">CV. HTML & CSS</a></li>
+    <li><a href="https://disk.yandex.com.tr/i/CSf0zCo-zoXRCg">Design of monthly calendar</a></li>
+</ul>
+</section>
+
+<hr>
+
+<section id="education" class="wrapper">
+<h2>Education</h2>
 <p><span class="bold">2022</span> - UpSkillMe JavaScript/Frontend Course, the Rolling Scopes School</p>
 <p><span class="bold">2020</span> - Graphic Design (online specialization), California Institute of the Arts</p>
 <p><span class="bold">2014-2016</span> - Digital Communications (Master's degree), MGIMO-University</p>
@@ -62,8 +112,8 @@ international organizations. I also have sufficient experience of digital design
 
 <hr>
 
-<section id="experience">
-<h3>Work Experience</h3>
+<section id="experience" class="wrapper">
+<h2>Work Experience</h2>
 <p><span class="bold">2021-2022</span> - Ministry of Finance of the Russian Federation: executive assistant to Director of International
 Department</p>
 <p><span class="bold">2019-2020</span> - United Nations' RC Office in Lao PDR: digital communications specialist</p>
@@ -72,8 +122,8 @@ Department</p>
 
 <hr>
 
-<section id="languages">
-<h3>Languages</h3>
+<section id="languages" class="wrapper">
+<h2>Languages</h2>
 <p><span class="bold">English</span> - advanced (TOEFL iBT 115, IELTS General 8.0)</p>
 <p><span class="bold">Russian</span> - native</p>
 <p><span class="bold">Spanish</span> - beginner</p>
@@ -83,24 +133,21 @@ Department</p>
 
 </main>
 
-<footer>
+<footer class="wrapper">
     <table>
-       <tbody>
-        <tr>
+    <tbody>
+    <tr>
         <td id="td1">
-            <img src="https://app.rs.school/static/images/logo-rsschool3.png" alt="RS course logo">
+            <a href="https://rs.school/js/"><img class="logo" width="100px" src="https://app.rs.school/static/images/logo-rsschool3.png" alt="RS course logo"></a>
         </td>
         <td id="td2">
-            Student of <a href="https://rs.school/js/">JavaScript/Frontend Course by the Rolling Scopes</a>
-        </td>
-        <td id="td3">
             <a href="https://github.com/annaperkova">GitHub</a>
         </td>
-        <td id="td4">
-            25 October 2022
+        <td id="td3">
+            2022
         </td>
-        </tr>
-       </tbody>
+    </tr>
+    </tbody>
     </table>
 </footer>
 
