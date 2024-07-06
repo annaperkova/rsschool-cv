@@ -326,6 +326,11 @@ h6 {
 
 .code__code {
    background-color: rgba(255, 255, 255, 0.2);
+   padding: 20px;
+}
+
+.code__code code {
+   text-wrap: wrap;
 }
 
 /* SECTION EXPERIENCE */
